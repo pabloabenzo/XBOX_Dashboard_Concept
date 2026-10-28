@@ -25,7 +25,7 @@ struct DashboardView: View {
                         Image("ic-profile")
                             .resizable()
                             .frame(width: 80, height: 80)
-                            .cliXboxhape(Circle())
+                            .clipShape(Circle())
                         VStack (alignment: .leading){
                             Text("abdulkarimkhaan")
                             HStack (spacing: 15) {
